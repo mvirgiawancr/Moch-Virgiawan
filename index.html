@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tugas | Moch Virgiawan Caesar Ridollohi</title>
+    <link rel="stylesheet" href="w3.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+        p {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h3{
+            font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+</head>
+<body style="background-color: #011C3A; color: white;">
+<img src="img/banner.png" width="100%">
+
+    <div class="w3-bar " style="border-radius: 10px; margin:5px auto; background-color: #5CE1E6; font-family: 'Roboto Mono', monospace;">
+        <button class="w3-bar-item w3-button" onclick="Program('Home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="Program('UIUX')">UI / UX</button>
+        <button class="w3-bar-item w3-button" onclick="Program('DataScience')">Data Science</button>
+        <button class="w3-bar-item w3-button" onclick="Program('Mobile')">Mobile</button>
+        <button class="w3-bar-item w3-button" onclick="Program('Web')">Web Programming</button>
+        <button class="w3-bar-item w3-button" onclick="Program('Game')">Game Development</button>
+        <button class="w3-bar-item w3-button" onclick="Program('Profile')">Profile</button>
+        <!-- Dropdown -->
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Menu</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="Program('Home')">Home</button>
+                <button class="w3-bar-item w3-button" onclick="Program('UIUX')">UI / UX</button>
+                <button class="w3-bar-item w3-button" onclick="Program('DataScience')">Data Science</button>
+                <button class="w3-bar-item w3-button" onclick="Program('Mobile')">Mobile</button>
+                <button class="w3-bar-item w3-button" onclick="Program('Web')">Web Programming</button>
+                <button class="w3-bar-item w3-button" onclick="Program('Game')">Game Development</button>
+                <button class="w3-bar-item w3-button" onclick="Program('Profile')">Profile</button>
+            </div>
+        </div>
+        <!-- End Dropdown -->
+    </div>
+
+    <div id="Home" class="w3-container hero w3-animate-zoom" style="display:block;">
+        <marquee scrollamount="20">
+            <h1 style="font-family: 'Roboto Mono', monospace;">Welcome! Thanks for coming!</h1>
+        </marquee>
+        <marquee scrollamount="-2">
+            <p style="font-family: 'Open Sans', sans-serif;">Let me introduce myself! My name is Virgi, I am an informatics engineering student</p>
+        </marquee>
+        <img src="img/banner.png" width="100%" style="opacity: 0;">
+        <img src="img/banner.png" width="100%" style="opacity: 0;">
+    </div>
+    <div id="UIUX" class="w3-container hero w3-animate-zoom" style="display: none;">
+        <center>
+            <h1>UI / UX Design</h1>
+            <img src="img/uiux.png" alt="UI / UX" width="500px">
+        </center>
+        <h2 style="margin-left: 20px;">Apa itu UX?</h2>
+        <p style="text-align: justify; ">
+            &emsp;&emsp;&emsp;User Experience (UX) merupakan proses mendesain suatu produk melalui pendekatan pengguna. 
+            Dengan pendekatan ini, Anda jadi bisa menciptakan produk yang sesuai dengan kebutuhan dan keinginan pengguna.
+            Produk dengan desain UX yang baik akan menciptakan pengalaman yang menyenangkan bagi pengguna saat menggunakan 
+            produk Anda. Pengguna jadi mudah dan nyaman saat menggunakan produk.Adapun, komponen UX ini meliputi 
+            bagaimana fitur-fitur yang disediakan pada produk, struktur desain, navigasi penggunaan produk, aspek visual design, 
+            dan seluruh aspek interaksi dengan pengguna. 
+            UX juga meliputi bagaimana Anda menentukan branding, konten, dan belajar copywriting yang sesuai dengan target pengguna Anda. 
+        </p>
+        <h2 style="margin-left: 20px;">Apa itu UI?</h2>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Seperti yang disebutkan sebelumnya, UI adalah bagian dari UX yang berupa tampilan visual design sebuah sistem. 
+            Tampilan tersebut memungkinkan pengguna terhubung dan berinteraksi dengan suatu produk.Selain berfungsi sebagai penghubung, 
+            UI juga berfungsi untuk memperindah tampilan sehingga dapat meningkatkan kepuasan pengguna. Namun, tak hanya harus indah, 
+            UI juga harus mudah digunakan.Beberapa komponen UI diantaranya adalah komponen tombol, ikon tipografi, tema, layout, animasi yang 
+            tampil pada produk, dan visual interaktif lainnya. Semua komponen UI tersebut didesain dengan berfokus pada keindahan dan kemudahan pengguna. 
+            Jadi, pengguna dapat menikmati produk Anda.   
+        </p>
+    </div>
+    <div id="DataScience" class="w3-container hero w3-animate-top" style="display: none;">
+        <center>
+            <h1>Data Science</h1>
+            <img src="img/DataScience.png" alt="Data Science">
+        </center>
+        <h2 style="margin-left: 20px;">Pengertian Data Science</h2>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Ilmu data alias data science merupakan fokus studi yang berhubungan dengan besarnya volume data menggunakan teknik 
+            modern demi menemukan pola-pola tak terlihat, mendapat informasi bermakna, serta membuat keputusan bisnis dengan informasi tersebut.
+            Algoritma pembelajaran mesin yang kompleks digunakan dalam data science untuk membangun model yang prediktif. Adapun, data yang 
+            digunakan untuk analisis bisa berasal dari bermacam sumber dan tampak dalam berbagai format.Data science termasuk topik diskusi yang 
+            benar-benar luas dan dengan subjektivitas yang kental. Data science sendiri, menurut definisinya, bukanlah suatu ilmu yang berdiri sendiri. 
+            Ia merupakan kombinasi dari berbagai bidang, khususnya matematika, ilmu komputer, strategi bisnis, sampai statistik.
+        </p>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Terdapat tiga komponen yang terlibat dalam data science, yakni organising, packaging, dan delivering data atau The OPD of Data. 
+            Untuk organising data sendiri ialah proses penyimpanan data yang kemudian digabungkan dengan manajemen data.Sementara itu, packaging 
+            data adalah proses manipulasi dan penggabungan berbagai data mentah yang nantinya dipresentasikan. Selanjutnya, delivering data 
+            merupakan proses memastikan pesan dalam data sudah diakses oleh pihak yang memerlukan.Dengan adanya peningkatan aliran data yang 
+            drastis ini, alat-alat baru yang bisa digunakan untuk memanfaatkan data mentah dengan tepat akan muncul. 
+            Cakupan dari data science sendiri ialah alat, teknik, sampai teknologi yang bakal membantu kita menangani meningkatnya aliran data itu sendiri.
+            Ini adalah perpaduan interdisipliner antara penurunan data, pengembangan algoritma, serta teknologi demi memecahkan masalah analitik yang 
+            sangat-sangat kompleks.
+        </p>
+    </div>
+    <div id="Mobile" class="w3-container hero w3-animate-bottom" style="display: none;">
+        <center>
+            <h1>Mobile Programming</h1>
+            <img src="img/mobile.webp" alt="Mobile" width="500px">
+        </center>
+        <h2 style="margin-left: 20px;">Pemrograman Mobile</h2>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Pemrograman mobile merupakan gabungan antara kata “pemrograman” dan “mobile“. Istilah lainnya yaitu mobile programming. 
+            Pemrograman mobile adalah pemrograman yang ditujukan untuk membuat aplikasi di perangkat mobile. 
+            Banyak sekali platform mobile yang dapat kita coba, di antaranya iOS, BB RIM, J2ME, QT Mobile, Symbian, dan Android. 
+            Jika ingin membuat sebuah aplikasi mobile, maka teman-teman wajib mengetahui sebuah bahasa pemrograman untuk membuatnya. 
+            Tidak semua bahasa pemrograman bisa kita gunakan untuk membuat aplikasi mobile. 
+            Nah, berikut ini adalah beberapa bahasa pemrograman yang bisa kita pakai untuk membuat aplikasi mobile, yaitu :
+        </p>
+        <ol>
+            <li>Java</li>
+            <li>Kotlin</li>
+            <li>Swift</li>
+            <li>Objective-C</li>
+        </ol>
+    </div>
+    <div id="Web" class="w3-container hero w3-animate-left" style="display: none;">
+        <center>
+            <h1>Web Programming</h1>
+            <img src="img/web.png" alt="Web" width="500px">
+        </center>
+        <h2 style="margin-left: 20px;">Pengertian Pemrograman Web</h2>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Pemrograman web adalah proses pembuatan instruksi-instruksi untuk menciptakan program/aplikasi berbasis internet yang dapat 
+            diakses melalui browser. Contoh dari pemrograman web itu sendiri yakni: gmail, facebook, tumblr, dll.
+            Dapat dikatakan bahwa pemrograman web berkaitan dengan pembuatan situs, namun levelnya berada di atas sekedar menyusun kode-kode HTML 
+            sederhana. Pemrograman web mencakup perencanaan, konseptualisasi, pemodelan pengiriman media elektronik melalui internet.
+            Bahkan pemrograman web yang baik mencakup pembuatan panel kontrol yang efektif sehingga pemilik situs web dapat memilki kontrol 
+            terhadap situsnya, terkait konten, aplikasi, dan aspek pendukung lainnya. 
+            Untuk mengenal pemrograman web lebih dalam, kita perlu memahami jenis-jenis website.
+        </p>
+        <h2 style="margin-left: 20px;">Bahasa Pemrograman Web</h2>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Bahasa pemrograman ialah kata-kata yang berperan sebagai instruksi yang dimengerti oleh komputer. 
+            Bahasa pemrograman merupakan ilmu yang wajib dikuasai oleh web designer untuk membuat sebuah website atau aplikasi. 
+            Berikut ini merupakan beberapa contoh bahasa pemrograman yang lazim digunakan dalam pemrograman web:
+        </p>
+        <ul>
+            <li>HTML: HTML merupakan dasar pembuatan setiap website. Untuk membentuk sebuah website, HTML berperan dalam pembentukan struktur halaman website.</li>
+            <li>CSS: CSS merupakan kunci yang membedakan sebuah website dengan website yang lain, karena CSS berfungsi untuk membuat tampilan laman menjad lebih menarik.</li>
+            <li>PHP: PHP merupakan server side scripting yang digunakan untuk memprogram dan mengembangkan sebuah situs, biasanya digunakan bersama HTML. PHP dirancang untuk pembuatan website dinamis.</li>
+            <li>JAVA SCRIPT: Java script berguna bagi kalian yang membutuhkan fitur interaksi pada website kalian, sehingga website dapat secara aktif menjadi media interaktif.</li>
+            <li>Bahasa Pemrograman yang juga populer digunakan dalam dunia programming yaitu PYTHON, JAVA, C, RUBY, dan PERL.</li>
+        </ul>
+    </div>
+    <div id="Game" class="w3-container hero w3-animate-right" style="display: none;">
+        <center>
+            <h1>Game Development</h1>
+            <img src="img/game.jpg" alt="Web" width="500px">
+        </center>
+        <h2 style="margin-left: 20px;">Pengertian Game Development</h2>
+        <p style="text-align: justify;">
+            &emsp;&emsp;&emsp;Game development adalah proses menciptakan dan mengembangkan video game. Game development melibatkan komponen-komponen 
+            seperti perancangan konsep game design, baik level design, gameplay, maupun mekanisme game, serta pembuatan desain asset visual dan 
+            audiovisual game. Kemudian konsep dan desain direalisasikan dengan coding dan programming. Game developer menyatukan komponen-komponen 
+            desain dan coding tersebut menjadi sebuah prototype lalu mengembangkannya menjadi video game melalui sebuah Game Engine. 
+            Game developer biasa berkisar dari satu orang atau satu tim kecil yang disebut Indie developer, hingga ke satu perusahaan besar
+        </p>
+    </div>
+    <div id="Profile" class="w3-container hero w3-animate-fading" style="display: none;">
+        <center>
+            <h1>Profile</h1>
+        <img src="img/me.png" alt="Me" width="250px"> 
+        <h3>Moch Virgiawan Caesar Ridollohi</h3>
+        <h3>10122164 - IF 5</h3>
+    </div>
+
+
+
+
+
+
+
+<script>
+    function Program(avengers) {
+     var i;
+     var x = document.getElementsByClassName("hero");
+     for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+     }
+     document.getElementById(avengers).style.display = "block";
+    }
+</script>
+</body>
+</html>
